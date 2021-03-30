@@ -1,11 +1,11 @@
-mkdir -p ~/.streamlit/
+mkdir -p ~/.sample_predict/
 echo "\
 [general]\n\
 email = \"omena.lae1@gmail.com\"\n\
-" > ~/.streamlit/credentials.tom1
+" > ~/.sample_predict/credentials.tom1
 echo "\
 [server]\n\
 headless = true\n\
 enableCORS=false\n\
 port = $PORT\n\
-" > ~/.streamlit/config.tom1
+" > ~/.sample_predict/config.tom1
