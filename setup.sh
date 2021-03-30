@@ -2,6 +2,6 @@ mkdir -p ~/.sample_predict/
 
 echo "[server]
 headless = true
-port = $PORT
+port = process.env.PORT || 8000
 enableCORS = false
 " > ~/.sample_predict/config.toml
