@@ -1,7 +1,7 @@
-mkdir -p ~/.samplepredict/
+mkdir -p ~/.streamlit/
 
 echo "[server]
 headless = true
 port = process.env.PORT || 8000
 enableCORS = false
-" > ~/.samplepredict/config.toml
+" > ~/.streamlit/config.toml
